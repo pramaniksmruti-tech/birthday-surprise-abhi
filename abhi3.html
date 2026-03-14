@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name = "viewport" content = "width= device-width, initial-scale=1.0">
+ <title>Birthday Surprise</title>
+ <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+<!-- Background Music -->
+<audio id="music"loop>
+<source src="music.mp3" type ="audio/mp3">
+</audio>
+
+<!-- Page 1 -->
+<div class="page active" id="page1">
+
+<h1>🎂 Happy Birthday 🎂</h1>
+<p>I made something special for you 💖</p>
+
+<button onclick="nextPage(2)">Open Surprise 🎁</button>
+
+</div>
+
+<!-- Page 2 -->
+<div class="page" id="page2">
+
+<h1>💌 A Special Message</h1>
+
+<p>
+Happy Birthday!  
+You are an amazing person and you deserve all happiness in the world ❤️  
+I hope this little surprise makes your day more special.
+</p>
+
+<button onclick="nextPage(3)">Click For Final Surprise 🎉</button>
+
+</div>
+<!-- Page 3 -->
+<div class="page" id="page3">
+
+<h1>📸 Memories</h1>
+
+<p>These moments are special 💕</p>
+
+<img src="photo1.jpg.jpeg">
+<img src="photo2.jpg.jpeg">
+<img src="photo3.jpg.jpeg">
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
+
